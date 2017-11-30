@@ -1,0 +1,38 @@
+{
+  "name"              : "2017-2018欧洲冠军联赛",
+  "short_name"        : "欧冠",
+  "description"       : "An example website implementing Progressive Web App technology.",
+  "start_url"         : "/index.html",
+  "display"           : "standalone",
+  "orientation"       : "any",
+  "background_color"  : "red",
+  "theme_color"       : "green",
+  "icons": [
+    {
+      "src"           : "/images/logo/real72.png",
+      "sizes"         : "72x72",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "/images/logo/real152.png",
+      "sizes"         : "152x152",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "/images/logo/real192.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "/images/logo/real256.png",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "/images/logo/real512.png",
+      "sizes"         : "512x512",
+      "type"          : "image/png"
+    }
+  ]
+}
+

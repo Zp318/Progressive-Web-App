@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PWA HTML</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="shortcut icon" href="/images/logo/logo016.png">
+	<script src="./rem.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<header>
+		<a href="/" class="logo"><img src="./images/logo/real152.png" alt="PWA"></a>
+	</header>
+
+	<main>
+		<article>
+			<img src="./images/beach.jpg" alt="PIC" class="preview">
+			<p class="text">我们在 Service Worker 简介中介绍了Service Worker的背景和兼容性等内容，然后在Service Worker生命周期中介绍了Service Worker的生命周期以及所有的事件和 API, 但是我们还是不清楚如何才能使用 Service Worker， 以及在什么场景下使用什么 API 等等，这将是这篇文档所要提到的内容</p>
+			<img src="./images/bluescreen.jpg" alt="PIC" class="preview">
+			<p class="text">要安装 Service Worker， 我们需要通过在 js 主线程（常规的页面里的js）注册 Service Worker 来启动安装，这个过程将会通知浏览器我们的 Service Worker 线程的 javaScript 文件在什么地方呆着。</p>
+			<img src="./images/circuit.jpg" alt="PIC" class="preview">
+			<p class="text">我们还可以通过 chrome://serviceworker-internals 来查看服务工作线程详情。 如果只是想了解服务工作线程的生命周期，这仍很有用，但是日后其很有可能被 chrome://inspect/#service-workers 完全取代。</p>
+		</article>
+	</main>
+
+	<footer>
+		<p>&copy;NOW</p>
+	    <p>All rights reserved.</p>
+		<p>We don't track you or do anything nasty. Or so we say.</p>
+		<p>Nothing to see here. Please move along.</p>
+	</footer>
+	
+	<div id="menu"><a href="#nav">menu</a></div>
+
+	<nav id="nav">
+	  <ul>
+	    <li><a href="#menu" title="close menu" class="close">&#x2715;</a></li>
+	    <li><a href="/" class="active nav">home</a></li>
+	    <li><a href="/work/" class="nav">work</a></li>
+	    <li><a href="/about/" class="nav">about</a></li>
+	    <li><a href="/contact/" class="nav">contact</a></li>
+	  </ul>
+	</nav>
+</body>
+<script src="./js/main.js" defer></script>
+</html>
